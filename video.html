@@ -1,0 +1,43 @@
+
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title> Demo player for facebook</title>
+	<script src="http://vjs.zencdn.net/ie8/1.1.0/videojs-ie8.min.js"></script>
+    <script src="player/video.js"></script>
+
+	<link href="player/video-js.min.css" rel="stylesheet">
+  	<link href="player/videojs-resolution-switcher.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<script type="text/javascript" src="http://api.phimhd.today/jwplayer/jwplayer.js"></script><br />
+	<script type="text/javascript">jwplayer.key = 'N7xlOPGB6mp3YbxUcqyDYRkDjS2QPFdxlcQdQQ==';</script>
+	<div id="myElement5b4f3d63f705362d4e8a915c86b41021"></div>
+	<script type="text/javascript">
+					    jwplayer("myElement5b4f3d63f705362d4e8a915c86b41021").setup({
+					    		aspectratio: "16:9",
+								width: '100%',
+								aspectratio: '16:9',
+					    		autostart: true,
+					    		sources:[
+								{"file":"http://cinemaindo.tv/cinemaindotvb.php?link=dFFwN0wyVVVxN1hPbmhsNjVGUzhiSXZqNiszMitLdUpCYTV2MEhkSnVPMlRVQ0lyeXIvSlVLeGFJWVJIQy9IOVFVODVPSnl1SExlY2YxcmhZOEIwT0JGMkduZk1KZU9QZEpnRi9FcXlLWEozNy93UE1wMS9CWkM4a0hWbHNJdjJkYlZpc0FKNXFWQk9nZ21qUklmVDZWSkMxMUE2alhBUnNXTzB4TTFDUER0TG9GcDFjWnpNbnhYaldLNWFqUmFLT1FFaXpPY1kzV1JGNmNaZFlYeVB1RUNVbmJ1cTNSTmMrREVsck5sUjFqRGNObjhvbFc4QnBTTlEzRDZ5bmczVUVpVWpzZXQxSncwdk1OeE1EVU0vZll5SkxWWEc0RVE4RTd6dUt2a3pWdXBzelNrYTdGSHhGMHpJK0oveStJODk5WnZ4OWNHeU9IL0RPeklseitoVktnVjhvU3ZWU2hNYUZSNjhoR0w5QmtjVFVnQ3ordE0wUGtuVUk0eldmUFNyODE5Ky9xWW9XdmhRWCtVWFFhZ25tcVZlaHJjMVNCeFdsaTRORmZHd1NPYkhsZGJXOUUvNlpmT0VMWWx2cjBxb3dNK1hvQkNJeXU2M0hlM05vb1N0eU92aVhHOVZlMUo4OU83bkV0UHorY0VGdUxERGRYczNhY0QzRGpaNmtCR0lQUU5WNVY5eXJHOVNMaXFQZHluQU83NCtSOFdnMC9DTTcrM2d6U1dBMFNkbUdqM01UbmtNMGtWMmE2TGRuWFQvZk5POCtEdU0zOEludm5GVVQ5SzVLL2dPMmR0MmxlQXBlVWNqUzZ6TkxGd2VVRzNRekZSRnIvNjB0bDRaRWFGNlNTTDJWYnhMazRlK21oQmZMZTRFMFVvaWU3YkNId1pVUjVING9mRmdOTU09","type":"mp4","label":"360p"}]								,abouttext: 'ITDuyanh@gmail.com',
+								aboutlink: 'Made by ITDuyanh@gmail.com',
+								captions: {
+									color: '#FFFFFF',
+									fontSize: 18,
+									backgroundOpacity: 50
+								}
+						    }).addButton(
+				 		"http://i.imgur.com/oEGwv5V.png",
+			  			"Download Video",
+						function(){
+			    			window.location.href = jwplayer().getPlaylistItem()['file'];
+						}, "download"
+				    );
+					</script>
+
+
+</body>
+</html>
